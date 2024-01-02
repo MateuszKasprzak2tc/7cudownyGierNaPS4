@@ -7,18 +7,16 @@
         font-family: 'Lucida Sans Unicode';
     }
     
-    .menu1{
-        width: 1200px;
-        margin-left: 2%;
-    }
     .blankS{
         width: 100px;
         height: auto;
     }
     div.menu{
         float: left;
-        width: 20%;
-        height: 50px;
+        width: 15%;
+        margin-left: 2%;
+        min-height: 400px;
+        max-height: 600px;
         border-width: 1px;
         border-color: white;
         color: white;
@@ -30,15 +28,20 @@
         background-color: #0F90DB;
         transition-property: height, background-color;
         transition-duration: 2s;
-        clear: left;
-    }
-    
-    div.menu1{
         position: fixed;
     }
+
+    a{
+        color: white;
+    }
+
+    a.menu{
+        color: #0F50DB;
+        font-size: 25px;
+        font-family: monospace;
+    }
     
-    div.menu:hover{
-        height: 75px;
+    a.menu:hover{
         background: #520FDB;
         color: aliceblue;
     }
@@ -78,7 +81,8 @@
         margin-right: 20%;
         margin-top: 50px;
         background-color: #0F50DB;
-        height: 550px;
+        min-height: 550px;
+        max-height: 650px;
     }
     li{
         margin-top: 5px;
@@ -95,12 +99,18 @@
     }
     table
     {
-        margin-left: 45%;
+        margin-left: 35%;
+        margin-top: 6%;
+        margin-bottom: 50px;
     }
     table, th, td {
         border: 3px solid black;
         border-collapse: collapse;
     } 
+    img.size{
+        width: 40%;
+    }
+
     .row > .column {
         padding: 0 8px;
       }
@@ -232,19 +242,16 @@
         background-color: rgb(44, 17, 177);
         font-family: 'Lucida Sans Unicode';
     }
-    
-    .menu1{
-        width: 1000px;
-        margin-left: 5%;
-    }
     .blankS{
         width: 100px;
         height: auto;
     }
     div.menu{
-        
+        float: left;
         width: 20%;
-        height: 50px;
+        margin-left: 2%;
+        min-height: 450px;
+        max-height: 650px;
         border-width: 1px;
         border-color: white;
         color: white;
@@ -253,21 +260,15 @@
         font-family: 'Courier New', Courier, monospace;
         font-size: 14px;
         font-weight: bold;
-        background-color: rgb(23, 104, 185);
+        background-color: #0F90DB;
         transition-property: height, background-color;
         transition-duration: 2s;
-        
-    }
-    
-    div.menu1{
-        margin-top: 30px;
         position: fixed;
     }
-    
-    div.menu:link{
-        height: 75px;
-        background: silver;
+    img.size{
+        width: 40%;
     }
+
     div.opis{
         margin-left: 30%;
         margin-right: 10%;
@@ -285,7 +286,8 @@
         margin-right: 10%;
         margin-top: 50px;
         background-color: rgb(0, 128, 255);;
-        height: 800px;
+        min-height: 800px;
+        max-height: 1400px;
         padding-left: 50px;
         padding-right: 3px;
     }
@@ -304,7 +306,7 @@
     }
     table
     {
-        margin-left: 30%;
+        margin-left: 10%;
     }
     table, th, td {
         border: 3px solid black;
@@ -315,13 +317,13 @@
     div.logo{
         margin-left: 10%;
     }
-    div.menu1
+    div.menu
     {
-        width: 1575px;
-        height: 50px;
+        width: 400px;
+        height: 400px;
         margin-top: 10%;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
         margin-bottom: 100px;
         position: relative;
     }
@@ -338,9 +340,13 @@
         margin-right: 15%;
         margin-top: 20px;
         background-color: #0080ff;
-        height: 1100px;
+        min-height: 1100px;
+        max-height: 1650px;
         padding-left: 3px;
         padding-right: 3px;
+    }
+    img.size{
+        width: 90%;
     }
     img{
         margin-left: 15px;
